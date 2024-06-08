@@ -1,0 +1,26 @@
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.box{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(10, 157, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    margin: 30px;
+    padding: 20px;
+}
